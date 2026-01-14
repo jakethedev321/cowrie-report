@@ -19,7 +19,7 @@ A Cowrie SSH honeypot was deployed on a public VPS to observe real-world SSH sca
 
 - Public VPS running Linux (Ubuntu)
 - Cowrie configured to listen on **2222**
-- Real SSH administrative access moved to a high port (**22222**)
+- Real SSH administrative access was moved to a separate high, non-standard port to isolate it from the honeypot.
 - Port redirection to ensure unsolicited SSH traffic is captured by Cowrie
 
 ---
